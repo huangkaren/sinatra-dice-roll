@@ -9,12 +9,13 @@
   <h1>100d6</h1>
   
   <ul>
-    <%= @rolls.each do |a_roll|%>
+    <% @rolls.each do |a_roll|%>
       <li>
-        <% a_roll %>
+        <%= a_roll %>
       </li>
+    <% end %>
   </ul>
-  <%= end %>
+  
 
 </body>
 </html>
